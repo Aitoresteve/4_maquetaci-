@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>maquetació</title>
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,800&display=swap" rel="stylesheet">
+    <style type="text/css">
+        :root{
+            --titular:;
+                --cos:;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            height: 100%;
+        }
+        header{ 
+            display: flex;
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+        section{
+            width: 50%;
+            height: 70vh;
+        }
+        header section:first-child img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+         header section:last-child img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        header section:first-child{
+            background: blue;
+       
+        }
+        header section:last-child{
+            background: red;
+           
+        }
+        h1{
+            position: absolute;
+            text-align: center;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4vw;
+            color: greenyellow;
+        }
+        main{
+            width: 600px;
+            margin: auto;
+        }
+        main>p{
+            padding: 4em 0;
+            color: skyblue;
+            column-count: 2;
+            column-gap: 30px;
+            column-rule: 1px solid skyblue;
+            text-align: justify;
+            hyphens: auto;
+            line-height: 1.4em;
+        }
+        article{
+            color: gray;
+            padding: 0 4em;
+        }
+        article p{
+            margin: 0 0 1.2em 0;
+        }
+        article p: first-child::first-letter{
+            background: azure;
+            font-size: 8em;
+            color: aqua;
+            float: left;
+            display: block;
+            line-height: 2rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+        }
+        .cercle{
+            background: grey;
+            border-radius: 50%;
+        }
+        article .cercle img{
+            mix-blend-mode: hard-light;
+            border-radius: 50%;
+        }
+        .hexagon{
+            background: grey;
+            clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+        }
+        .hexagon ing{
+            clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+        }
+    </style>
+    </head>
+    <body>
+    <header>
+        <section>
+    <img src="llocweb/img/fpc_eagle_3.jpg" alt="">
+        
+        </section>
+        <section>
+            <h1>Charles S.Anderson</h1>
+<img src="llocweb/img/nike_poster1.jpg" alt="">
+        </section>
+        </header>
+        <main>
+            <p>Anderspn se graduó en la Facultad de Arte y De¡iseño de Mineapolis en 1981. En 1985 se
+había unido al vanguardista Duffy Design Group. Fué infuenciado por por una mezcla de
+modernismo de la Nueva Bauhaus. En sus trabajos cominó pastiche nostálgico con una
+estética contemporánea de color y forma.
+La década de 1980 fue un período de transiciones artísticas, tecnológicas y demográfcas.
+En 1989, con un solo cliente, la French Paper Company formó Charles S.Anderson Design,
+que se especializa en el desarrollo de identidad, empaque y diseño de productos, y se
+encuentra entre las ramas de diseño más infuyentes del mundo. También contribuyó a la
+cultura del diseño construyendo sobre lo que el diseñador Art Chantry ha denominado arte
+popular comercial estodounidense.
+CSA Design ha recibido los máximos honores en todas las principales competiciones de
+diseño.</p>
+            
+            <article>
+            <p>Medalla AIGA Charles S. Anderson recibió la Medalla del Centenario del Instituto Americano deArtes Gráfcas.                
+El más alto honor por logros excepcionales en el campo del diseño.
+Membresía Honoraria de por Vida de STA Charles S. Anderson recibió el Premio de Membresía
+                Honoraria de por Vida de la Sociedad de Artes Tipográfcas.</p>
+                <div class="cercle">
+                <img src="llocweb/img/fpc_eagle_3.jpg" alt=""> 
+                </div>
+<p>MCAD Alumni Achievement Charles S. Anderson recibió el Premio al Logro Alumno Sobresaliente
+de Minneapolis College of Art and Design.
+Membresía honoraria de por vida de UCDA Charles S. Anderson recibió la membresía honoraria
+de por vida de la Asociación de Diseñadores de University College.
+AGI Alliance Graphique Internationale.</p>
+                <div class="hexagon">
+                <img src="llocweb/img/nike_poster1.jpg" alt="">
+                </div>
+            </article>
+        
+        </main>        
+    </body>
+</html>
